@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Budget Manager",
+    "version": "1.0.0",
+    "description": "simple manager for budget extention",
+    "icons": {
+        "128": "icons/money128.png",
+        "48": "icons/money64.png",
+        "16": "icons/money16.png"
+    },
+    "browser_action": {
+        "default_icon": "icons/money16.png",
+        "default_popup": "template/popup.html"
+    },
+    "options_page": "template/options.html",
+    "permissions": [
+        "storage",
+        "notifications"
+    ]
+}
